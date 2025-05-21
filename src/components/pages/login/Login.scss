@@ -1,0 +1,68 @@
+.login-page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #f9f9f9;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+  }
+}
+
+.login-image-section {
+  flex: 1;
+  background: url('../../../assets/window.jpg') no-repeat center center;
+  background-size: cover;
+  display: none;
+
+  @media (min-width: 768px) {
+    display: block;
+  }
+}
+
+.login-form-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background-color: #ffffff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.ant-typography {
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  color: #333;
+}
+
+.login-form {
+  width: 100%;
+  max-width: 400px;
+}
+
+.login-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px; /* Space between links */
+  // margin-top: 10px;
+  font-size: 14px;
+}
+
+.forgot-password-link,
+.signup-link {
+  color: #1890ff; /* Ant Design primary color */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.forgot-password-link:hover,
+.signup-link:hover {
+  color: #40a9ff; /* Lighter blue on hover */
+}
+
+.separator {
+  color: #999; /* Neutral color for the separator */
+}

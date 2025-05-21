@@ -1,0 +1,83 @@
+.sidebar-layout {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    overflow: hidden;
+
+    .upper-div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px !important;
+
+        .logo-container {
+            color: #AF96CF;
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        .menu-container {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            .menu-items {
+                width: 220px;
+                padding: 15px;
+                text-align: left;
+                display: flex;
+                align-items: center;
+                border: 1px solid #ababab;
+                border-radius: 17px;
+                color: #AF96CF;
+                background: white;
+                cursor: pointer;
+                transition: all 0.3s ease;
+
+                .icon {
+                    margin-right: 10px;
+                    font-size: 16px;
+                }
+
+                &:hover {
+                    background: #AF96CF;
+                    color: white;
+                    border-color: #AF96CF;
+                }
+            }
+        }
+    }
+
+        .lower-div {
+            margin-top: auto;
+            padding-bottom: 15px;
+    
+            .menu-items {
+                width: 220px;
+                padding: 15px;
+                text-align: left;
+                display: flex;
+                align-items: center;
+                border: 1px solid #ababab;
+                border-radius: 17px;
+                margin-bottom: 20px !important;
+                color: #AF96CF;
+                background: white;
+                cursor: pointer;
+                transition: all 0.3s ease;
+    
+                .icon {
+                    margin-right: 10px;
+                    font-size: 16px;
+                }
+    
+                &:hover {
+                    background: #AF96CF;
+                    color: white;
+                    border-color: #AF96CF;
+                }
+            }
+        }
+    }
+

@@ -1,0 +1,42 @@
+.header-layout {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  h2{
+    color: hsl(0, 3%, 39%);
+  }
+    .user-icon {
+      cursor: pointer;
+    }
+  
+    .profile-container {
+      position: relative;
+      color: hsl(0, 3%, 39%);
+      border-radius: 5px;
+    }
+  
+    .dropdown-menu {
+      position: absolute;
+      right: 0;
+      background: #f5f5f4;
+      border: 1px solid #f1efef;
+      border-radius: 8px;
+      padding: 0.5rem;
+      width: 150px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      z-index: 100;
+  
+      p {
+        margin: 0;
+        padding: 0.5rem;
+        cursor: pointer;
+        transition: background 0.8;
+  
+        &:hover {
+          background: #AF96CF;
+          border-radius: 10px;
+        }
+      }
+    }
+  }
+  

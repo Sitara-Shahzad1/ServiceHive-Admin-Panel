@@ -1,0 +1,110 @@
+/* Add styles for the Customers component */
+.table{
+     padding: 20px;
+}
+h4 {
+     font-size: 1.5rem; /* Adjusted for better readability */
+     color: #333; /* Neutral dark color for better contrast */
+     text-align: left; /* Center-align the heading */
+     margin-bottom: 20px; /* Add spacing below the heading */
+     padding-left: 25px;
+}
+
+.btn-section{
+ margin-bottom: 16px;
+     float: right;
+     display: flex;
+     flex-direction: column;
+     margin-top: -30px;
+
+}
+.add-customer-button {
+     margin-bottom: 16px;
+     float: right;
+     background-color: #b48dbe;
+     color: #fff;
+     border: none;
+     font-size: 20px;
+     border-radius: 4px;
+     margin: 25px;
+     margin-top: -20px;
+     font-size: 14px;
+     cursor: pointer;
+     transition: background-color 0.3s ease;
+     
+   }
+   
+   .add-customer-button:hover {
+     background-color: #6c2673;
+   }
+   
+   /* Table styles */
+   .ant-table {
+     margin-top: 20px;
+     border: 1px solid #f0f0f0;
+     border-radius: 8px;
+     overflow: hidden;
+   }
+   
+   .ant-table-thead > tr > th {
+     background-color: #da0f0f;
+     color: #fff;
+     font-weight: bold;
+     text-align: center;
+     padding: 12px;
+   }
+   
+   .ant-table-tbody > tr > td {
+     text-align: center;
+     padding: 12px;
+   }
+   
+   .ant-table-tbody > tr:hover {
+     background-color: #fafafa;
+   }
+   
+   /* Modal styles */
+   .ant-modal-title {
+     font-size: 20px;
+     font-weight: bold;
+     color: #333;
+   }
+   
+   .ant-modal-footer {
+     text-align: right;
+   }
+   
+   .ant-modal-footer .ant-btn-primary {
+     background-color: #1890ff;
+     border-color: #1890ff;
+   }
+   
+   .ant-modal-footer .ant-btn-primary:hover {
+     background-color: #40a9ff;
+     border-color: #40a9ff;
+   }
+   
+   /* Form styles */
+   .ant-form-item-label > label {
+     font-weight: 500;
+     color: #333;
+   }
+   
+   .ant-input {
+     border-radius: 4px;
+     padding: 8px;
+     font-size: 14px;
+   }
+   
+   .ant-input:focus {
+     border-color: #1890ff;
+     box-shadow: 0 0 5px rgba(24, 144, 255, 0.5);
+   }
+   
+   .ant-switch {
+     background-color: #a29596;
+   }
+   
+   .ant-switch-checked {
+     background-color: #52c41a;
+   }

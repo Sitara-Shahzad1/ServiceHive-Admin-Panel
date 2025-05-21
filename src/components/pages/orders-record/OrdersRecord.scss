@@ -1,0 +1,28 @@
+.orders-record {
+  padding: 20px;
+
+  h4 {
+    font-size: 1.2rem; /* Slightly smaller heading */
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: left;
+    padding-left: 7px;
+  }
+
+  .small-table {
+    font-size: 12px; /* Smaller font size for table content */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+
+  .ant-table-thead > tr > th {
+    background-color: #f5f5f5;
+    font-size: 12px; /* Smaller font size for table headers */
+    text-align: center;
+  }
+
+  .ant-table-tbody > tr > td {
+    text-align: center;
+    padding: 8px; /* Reduce padding for smaller rows */
+  }
+}

@@ -1,0 +1,32 @@
+.custom-table-container {
+    :global {
+      .ant-table {
+        background: white;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+    }
+  
+    .ant-table-footer {
+      padding: 0px;
+      .see-more-container {
+        display: flex;
+        justify-content: end;
+        padding: 8px 8px;
+    
+        .see-more-button {
+          background-color: #AF96CF;
+          border: none;
+          padding: 8px 24px;
+          height: auto;
+          font-size: 16px;
+          border-radius: 8px;
+    
+          &:hover {
+            background-color: #9a7fc0;
+          }
+        }
+      }
+    }
+  } 

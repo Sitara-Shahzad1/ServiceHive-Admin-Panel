@@ -1,0 +1,42 @@
+.service-providers {
+    padding: 20px;
+  }
+  
+  .service-providers h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: left;
+    padding-left: 15px;
+  }
+  
+  .ant-table {
+    border: 1px solid #f0f0f0;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .ant-table-thead > tr > th {
+    background-color: #1890ff;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .ant-table-tbody > tr > td {
+    text-align: center;
+  }
+  
+  .ant-table-tbody > tr:hover {
+    background-color: #fafafa;
+  }
+  
+  .ant-btn-link {
+    padding: 0;
+    font-size: 14px;
+  }
+  
+  .ant-btn-link.danger {
+    color: #ff4d4f;
+  }
+
+  
